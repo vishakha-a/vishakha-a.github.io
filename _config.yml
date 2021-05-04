@@ -1,0 +1,28 @@
+title: Vishakha Agrawal
+name: Vishakha Agrawal
+email: vishakha.agrawal09@gmail.com
+baseurl: "vishakha-a"
+url: https://vishakha-a.github.io/
+tagline: ML research, tech + society and miscellaneous.
+github: vishakha-a
+twitter: 
+  username: _vishakha_a
+social:
+  name: Vishakha Agrawal
+  links:
+    - https://twitter.com/_vishakha_a
+    - https://www.linkedin.com/in/vishakha-a/
+    - https://github.com/vishakha-a
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+markdown: kramdown
+
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+permalink: /blog/:year/:month/:day/:title
+excerpt_separator: "<!--excerpt-->"
